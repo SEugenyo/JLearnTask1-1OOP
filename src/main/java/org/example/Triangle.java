@@ -33,7 +33,7 @@ public class Triangle {
     }
 
     private boolean isAnySideGreaterOrEqualsSumOfOthers() {
-        return (sideA + sideB <= sideC) || (sideA + sideC <= sideB) || (sideB + sideC <= sideA);
+        return (sideC >= sideA + sideB) || (sideB >= sideA + sideC) || (sideA >= sideB + sideC);
     }
 
     private double calculateHeightFormulaNumerator() {
