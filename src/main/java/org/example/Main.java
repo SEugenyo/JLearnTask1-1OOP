@@ -1,5 +1,14 @@
-package org.example;public class Main {
+package org.example;
+
+import java.util.Scanner;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        try {
+            var triangle = new TriangleInputScannerReader(new Scanner(System.in)).readTriangle();
+            new TriangleHeightWriter(triangle).printHeights();
+        } catch (TriangleStateException e) {
+            System.err.println(e.getMessage());
+        }
     }
 }
