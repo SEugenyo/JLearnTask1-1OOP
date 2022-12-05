@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee997a77-cf3f-4645-a223-543be6032f8f" name="Changes" comment="Initial task implementation">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="ee997a77-cf3f-4645-a223-543be6032f8f" name="Changes" comment="Rename main class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TriangleHeightWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TriangleHeightWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TriangleInputScannerReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TriangleInputScannerReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TriangleStateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TriangleStateException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TriangleInputScannerReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TriangleInputScannerReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TriangleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,52 +58,32 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TriangleTest">
-    <configuration name="TriangleHeightWriterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;TriangleHeightWriterTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Application.TaskTriangleHeight">
+    <configuration name="TaskTriangleHeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TaskTriangleHeight" />
+      <module name="TDDTask1-1OOP.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="TriangleHeightWriterTest.testPrintHeight" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;TriangleHeightWriterTest.testPrintHeight&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="TriangleHeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TriangleHeight" />
+      <module name="TDDTask1-1OOP.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TriangleInputScannerReaderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -184,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskTriangleHeight" />
+        <item itemvalue="Application.TriangleHeight" />
         <item itemvalue="Gradle.TriangleTest" />
         <item itemvalue="Gradle.TriangleInputScannerReaderTest" />
         <item itemvalue="Gradle.TriangleInputScannerReaderTest.testReadTriangle" />
-        <item itemvalue="Gradle.TriangleHeightWriterTest" />
-        <item itemvalue="Gradle.TriangleHeightWriterTest.testPrintHeight" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +173,28 @@
       <option name="presentableId" value="Default" />
       <updated>1670184873559</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial task implementation">
+      <created>1670235286741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670235286741</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Rename main class">
+      <created>1670236287930</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670236287930</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Rename main class">
+      <created>1670236827646</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670236827646</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,7 +210,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial task implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial task implementation" />
+    <MESSAGE value="Rename main class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename main class" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
